@@ -94,8 +94,9 @@ Example: `vowelsConsonantsDigits("It is 18th of Oct 2016") => ["Vowels: 4", "Con
 Tricky Problems
 ========================
 The explanation of those tasks is in different file.
-1. Gas station
 
-2. Check if a given year is leap
+1 .[Gas station](https://github.com/HackBulgaria/Programming101-Java-2016/tree/master/week01/Gas-Stations)
 
-3. Build a matrix with the squares of the numbers
+2. [Anagrams](https://github.com/HackBulgaria/Programming101-Java-2016/tree/master/week01/Anagrams)
+
+3. [Matrix from the squares of numbers](https://github.com/HackBulgaria/Programming101-Java-2016/tree/master/week01/Gas-Stations)
