@@ -95,7 +95,7 @@ Tricky Problems
 ========================
 The explanation of those tasks is in different file.
 
-1 .[Gas station](https://github.com/HackBulgaria/Programming101-Java-2016/tree/master/week01/Gas-Stations)
+1. [Gas station](https://github.com/HackBulgaria/Programming101-Java-2016/tree/master/week01/Gas-Stations)
 
 2. [Anagrams](https://github.com/HackBulgaria/Programming101-Java-2016/tree/master/week01/Anagrams)
 
