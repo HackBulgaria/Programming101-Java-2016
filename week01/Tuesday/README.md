@@ -12,7 +12,7 @@ Check if a given number is Odd or not
 
 Example: `isNumberOdd(8)`
 
-Result: `True`
+Result: `false`
 
 2. Is a number prime
 ----------------
@@ -22,7 +22,7 @@ Check if a given number is prime
 
 Example: `isNumberPrime(17)`
 
-Result: `True`
+Result: `true`
 
 3. Factorial Digits
 ----------------
@@ -58,7 +58,7 @@ For example, the integer 121 is palindrome, but 12340321 - not!
 
 Example: `isPalindrome(12321)`
 
-Result: `True`
+Result: `true`
 
 6. Reverse the odd words in string
 ----------------
@@ -79,7 +79,7 @@ Write a function, which takes a number and returns boolean if the sum of the num
 
 Example: `isSumPalindrome(123)`
 
-Result: `True`
+Result: `true`
 
 123 + 321 = 444
 
@@ -96,7 +96,7 @@ Divisors of 5: 5, 1
 Divisors of 6: 6, 3, 2, 1
 Divisors of 7: 7, 1
 
-Result: `30`
+Result: `33`
 
 9. Check the number of vowels, consonants and digits in string
 ----------------
