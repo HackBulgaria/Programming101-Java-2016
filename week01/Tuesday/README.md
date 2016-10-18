@@ -11,6 +11,7 @@ Check if a given number is Odd or not
 `boolean isNumberOdd(int number)`
 
 Example: `isNumberOdd(8)`
+
 Result: `True`
 
 2. Is a number prime
@@ -20,6 +21,7 @@ Check if a given number is prime
 `boolean isNumberPrime(int number)`
 
 Example: `isNumberPrime(17)`
+
 Result: `True`
 
 3. Factorial Digits
@@ -31,6 +33,7 @@ For example, if number is equal to 145, we want the sum of 1! + 4! + 5!
 `int factorialDigits(int number)`
 
 Example: `factorialDigits(321)`
+
 Result: `9`
 
 4. Fibonacci sequence
@@ -42,6 +45,7 @@ For example, if n = 3, the result must be 112.
 `int fibonacciSequence(int number)`
 
 Example: `fibonacciSequence(5)`
+
 Result: `11235`
 
 5. Is a given number palindrome
@@ -53,6 +57,7 @@ For example, the integer 121 is palindrome, but 12340321 - not!
 `boolean isPalindrome(int number)`
 
 Example: `isPalindrome(12321)`
+
 Result: `True`
 
 6. Reverse the odd words in string
@@ -62,6 +67,7 @@ Implement a function, which takes a string and returns a string object containin
 `String reverseOddWords(String sentence)`
 
 Example:  `reverseOddWords(This is the first lecture for Programming 101 with Java)`
+
 Result: `This si the tsrif lecture rof Programming 101 with avaJ`
 
 
@@ -72,7 +78,9 @@ Write a function, which takes a number and returns boolean if the sum of the num
 `boolean isSumPalindrome(int input)`
 
 Example: `isSumPalindrome(123)`
+
 Result: `True`
+
 123 + 321 = 444
 
 8. Find the sum of the divisors in array from numberA to numberB
@@ -82,10 +90,12 @@ Implement a function, which takes two integer numbers and returns the sum of the
 `int sumOfDivisors(int numberA, numberB)`
 
 Example: `sumOfDivisors(4, 7)`
+
 Divisors of 4: 4, 2, 1
 Divisors of 5: 5, 1
 Divisors of 6: 6, 3, 2, 1
 Divisors of 7: 7, 1
+
 Result: `30`
 
 9. Check the number of vowels, consonants and digits in string
@@ -95,6 +105,7 @@ Implement a function, which takes a string sentence and returns the number of th
 `String [] vowelsConsonantsDigits(String sentence)`
 
 Example: `vowelsConsonantsDigits("It is 18th of Oct 2016")`
+
 Result: `["Vowels: 4", "Consonants: 7", "Digits: 6"]`
 
 
