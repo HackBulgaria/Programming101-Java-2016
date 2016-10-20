@@ -5,7 +5,7 @@ Course materials &amp; problems for HackBulgaria's Programming 101 with Java. St
 
 | Week | Date | Tasks | Presentation | 
 |---------|-------- |---------|-------------|
-| 1       | Tuesday - 18.10|[Tasks for week1](week1/)      | [Presentation for week1](https://slides.com/hackbulgaria/deck-40-64/live#/)           |
+| 1       | Tuesday - 18.10|[Tasks for week1](week01/)      | [Presentation for week1](https://slides.com/hackbulgaria/deck-40-64/)           |
 
 ## Course Program
 
