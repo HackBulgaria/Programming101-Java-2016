@@ -54,7 +54,7 @@ A JSON file looks something like this:
 In order to help you with this task we created a `class Listify` that reads a file and returns its contents as a `String[]`
 
 ```java
-package listify;
+package com.listify;
 
 import java.util.List;
 import java.util.LinkedList;
