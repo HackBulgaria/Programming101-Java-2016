@@ -1,8 +1,11 @@
 package com.hackbulgaria.java;
 
-public class MyLinkedList<T extends Comparable<T> > implements MyLinkedListInterface<T> {
+public class MyLinkedList<T extends Comparable<T>>
+		implements MyLinkedListInterface<T>, MyQueueInterface<T>, MyStackInterface<T> {
 
 	private Node head;
+	// the rightmost element of the list
+	private Node tail;
 	private int size;
 
 	private class Node {
@@ -22,17 +25,23 @@ public class MyLinkedList<T extends Comparable<T> > implements MyLinkedListInter
 	public MyLinkedList() {
 		size = 0;
 		head = null;
+		tail = null;
 	}
 
 	private Node getNode(int index) {
 		Node node = head;
 
-		for (int i = 0; i < index; i++) {
-			if (node.nextNode == null) {
-				throw new IndexOutOfBoundsException("The requested index is greated than the size");
-			}
+		if (index == size - 1) {
+			node = tail;
+		} else {
 
-			node = node.nextNode;
+			for (int i = 0; i < index; i++) {
+				if (node.nextNode == null) {
+					throw new IndexOutOfBoundsException("The requested index is greated than the size");
+				}
+
+				node = node.nextNode;
+			}
 		}
 
 		return node;
@@ -44,10 +53,26 @@ public class MyLinkedList<T extends Comparable<T> > implements MyLinkedListInter
 		}
 	}
 
+	private T removeHead() {
+		T firstElement = null;
+
+		if (size != 0) {
+			firstElement = head.element;
+			remove(0);
+		}
+
+		return firstElement;
+	}
+
 	@Override
 	public void addFirst(T newElement) {
 		Node newNode = new Node(newElement, head);
 		head = newNode;
+
+		if (size == 0) {
+			tail = newNode;
+		}
+
 		size++;
 	}
 
@@ -56,9 +81,8 @@ public class MyLinkedList<T extends Comparable<T> > implements MyLinkedListInter
 		if (size == 0) {
 			addFirst(newElement);
 		} else {
-			Node lastNode = getNode(size - 1);
-			Node newNode = new Node(newElement);
-			lastNode.nextNode = newNode;
+			tail.nextNode = new Node(newElement);
+			tail = tail.nextNode;
 			size++;
 		}
 	}
@@ -69,6 +93,8 @@ public class MyLinkedList<T extends Comparable<T> > implements MyLinkedListInter
 
 		if (index == 0) {
 			addFirst(newElement);
+		} else if(index == size -1) {
+			addLast(newElement);
 		} else {
 			Node previousNode = getNode(index - 1);
 			Node newNode = new Node(newElement, previousNode.nextNode);
@@ -92,7 +118,7 @@ public class MyLinkedList<T extends Comparable<T> > implements MyLinkedListInter
 			return null;
 		}
 
-		return getNode(size - 1).element;
+		return tail.element;
 	}
 
 	@Override
@@ -111,12 +137,19 @@ public class MyLinkedList<T extends Comparable<T> > implements MyLinkedListInter
 	public void remove(int index) {
 		validateIndex(index);
 
-		if (index == 0) {
+		if (index == 0 && size == 1) {
+			head = null;
+			tail = null;
+		} else if (index == 0) {
 			head = head.nextNode;
+		} else if (index == size - 1) {
+			tail = getNode(size - 2);
+			tail.nextNode = null;
 		} else {
 			Node previousNode = getNode(index - 1);
 			previousNode.nextNode = previousNode.nextNode.nextNode;
 		}
+
 		size--;
 	}
 
@@ -131,5 +164,35 @@ public class MyLinkedList<T extends Comparable<T> > implements MyLinkedListInter
 		}
 	}
 
+	@Override
+	public T pop() {
+		return removeHead();
+	}
+
+	@Override
+	public void push(T element) {
+		addFirst(element);
+	}
+
+	@Override
+	public void enqueue(T element) {
+		addLast(element);
+	}
+
+	@Override
+	public T dequeue() {
+		return removeHead();
+	}
+
+	@Override
+	public T peek() {
+		T firstElement = null;
+
+		if (size != 0) {
+			firstElement = head.element;
+		}
+
+		return firstElement;
+	}
 
 }
