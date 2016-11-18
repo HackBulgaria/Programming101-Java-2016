@@ -21,9 +21,9 @@ Course materials &amp; problems for HackBulgaria's Programming 101 with Java. St
 
 The course is happening thanks to:
 
-[![Experian](/partners/experian-logo.jpg =400x)](http://www.experian.bg/)
-[![Axway](/partners/axway-logo.jpg =400x)](https://www.axway.com/en)
-[![Nemetschek Bulgaria](/partners/nemetschek_logo.png =400x)](https://www.nemetschek.bg/)
+[![Experian](/partners/experian-logo.jpg)](http://www.experian.bg/)
+[![Axway](/partners/axway-logo.jpg)](https://www.axway.com/en)
+[![Nemetschek Bulgaria](/partners/nemetschek_logo.jpg)](https://www.nemetschek.bg/)
 
 
 ## Course Program
