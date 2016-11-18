@@ -8,6 +8,22 @@ Course materials &amp; problems for HackBulgaria's Programming 101 with Java. St
 | 1       | Tuesday - 18.10|[Tasks for week1](week01/)      | [Presentation for week1](https://slides.com/hackbulgaria/deck-40-64/)           |
 | 1       | Thirsday - 20.10|[Tasks for week1](week01/)      | [Presentation for week1](http://slides.com/hackbulgaria/deck-40-64-67/)           |
 | 2       | Tuesday - 25.10|[Tasks for week2](week02/)      |            |
+| 2       | Thirsday - 27.10|[Tasks for week2](week02/)      |            |
+| 2       | Friday - 28.10|[Pair programming task](week02/GameOfLife/)      |            |
+| 3       | Thirsday - 03.11|[Tasks for week3](week03/)      |            |
+| 4       | Tuesday - 08.11|[Tasks for week4](week04/)      |            |
+| 4       | Thirsday - 10.11|[Tasks for week4](week04/)      |            |
+| 4       | Friday - 11.11|[Tasks for week4](week04/)      |            |
+| 5       | Tuesday - 15.11|Exercising Recursion      |            |
+
+
+## Partners
+
+The course is happening thanks to:
+
+[![Experian](/partners/experian-logo.png)](http://www.experian.bg/)
+[![Axway](/partners/axway-logo.png)](https://www.axway.com/en)
+[![Nemetschek Bulgaria](/partners/nemetschek_logo.png)](https://www.nemetschek.bg/)
 
 
 ## Course Program
