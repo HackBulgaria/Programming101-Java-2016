@@ -1,6 +1,15 @@
 # Programming101-Java-2016
 Course materials &amp; problems for HackBulgaria's Programming 101 with Java. Starting October 2016.
 
+## Partners
+
+The course is happening thanks to:
+
+[![Experian](/partners/experian-logo.jpg)](http://www.experian.bg/)
+[![Axway](/partners/axway-logo.jpg)](https://www.axway.com/en)
+[![Nemetschek Bulgaria](/partners/nemetschek_logo.jpg)](https://www.nemetschek.bg/)
+
+
 ## Course weeks
 
 | Week | Date | Tasks | Presentation | 
@@ -15,16 +24,6 @@ Course materials &amp; problems for HackBulgaria's Programming 101 with Java. St
 | 4       | Thirsday - 10.11|[Tasks for week4](week04/)      |            |
 | 4       | Friday - 11.11|[Tasks for week4](week04/)      |            |
 | 5       | Tuesday - 15.11|Exercising Recursion      |            |
-
-
-## Partners
-
-The course is happening thanks to:
-
-[![Experian](/partners/experian-logo.jpg)](http://www.experian.bg/)
-[![Axway](/partners/axway-logo.jpg)](https://www.axway.com/en)
-[![Nemetschek Bulgaria](/partners/nemetschek_logo.jpg)](https://www.nemetschek.bg/)
-
 
 ## Course Program
 
