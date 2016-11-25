@@ -15,3 +15,5 @@
 Here you can see the problem and submit your solution:
 
 https://www.hackerrank.com/challenges/missing-numbers
+
+https://www.hackerrank.com/challenges/sherlock-and-array
