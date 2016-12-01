@@ -42,16 +42,16 @@ Implement a class, called `PandaSocialNetwork`, which has the following public m
 
 ```python
 PandaSocialNetwork network = new PandaSocialNetwork();
-Panda ivo = Panda("Ivo", "ivo@pandamail.com", "male");
-Panda rado = Panda("Rado", "rado@pandamail.com", "male");
-Panda tony = Panda("Tony", "tony@pandamail.com", "female");
+Panda ivo = new Panda("Ivo", "ivo@pandamail.com", "male");
+Panda rado = new Panda("Rado", "rado@pandamail.com", "male");
+Panda tony = new Panda("Tony", "tony@pandamail.com", "female");
 
 network.addPanda(ivo);
 network.addPanda(rado);
 network.addPanda(tony);
 
-network.makeFriends(ivo, rado)
-network.makeFriends(rado, tony)
+network.makeFriends(ivo, rado);
+network.makeFriends(rado, tony);
 
 network.connectionLevel(ivo, rado) == 1 # true
 network.connectionLevel(ivo, tony) == 2 # true
