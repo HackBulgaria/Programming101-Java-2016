@@ -9,9 +9,9 @@ For our social network, we are going to need a `Panda` class which should behave
 ```java
 Panda ivo = new Panda("Ivo", "ivo@pandamail.com", "male");
 
-ivo.name() == "Ivo" # true
-ivo.email() == "ivo@pandamail.com"  # true
-ivo.gender() == "male" # true
+ivo.getName() == "Ivo" # true
+ivo.getEmail() == "ivo@pandamail.com"  # true
+ivo.getGender() == "male" # true
 ivo.isMale() == true # true
 ivo.isFemale() == false # true
 ```
