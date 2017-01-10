@@ -132,7 +132,7 @@ Step 4 (Seats): Choose seat 2> (7,7)
 This is your reservation:
 Movie: Wreck-It Ralph (7.8)
 Date and Time: 2014-04-02 19:30 (2D)
-Seats: (7,7), (7.8)
+Seats: (7,7), (7.8)`
 Step 5 (Confirm - type 'finalize') > finalize
 Thanks.
 ```
