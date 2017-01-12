@@ -1,5 +1,11 @@
 ## Thursday
 
+### Functional LinkedList implementation
+
+Materials:
+- [Practical introduction to functional programming](https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming)
+- [Java 8 Functional API](http://winterbe.com/posts/2014/03/16/java-8-tutorial/)
+
 ###  Java reflection and annotations
 
 Materials:
