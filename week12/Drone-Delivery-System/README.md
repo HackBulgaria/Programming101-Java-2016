@@ -47,8 +47,6 @@ e.g. "delivery 4 2016-10-25 12:31 420,369 23 5 54 20"
 
 ## How deliveries are made
 
-* When we receive a supply request we will simply update our information at the warehouse and log a message about the supply.
-
 * When we receive a delivery request we will try to execute it. If we can execute the delivery request we should log a message. If we cannot process the current request now we should log a message with the reason why we cannot process the task.
 
 
