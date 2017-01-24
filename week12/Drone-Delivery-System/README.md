@@ -90,7 +90,7 @@ We should also support supply requests
 
 It will look like this:
 
-supply &lt;id&gt; &lt;warehouse id&gt; &lt;timestamp YYYY-MM-DD HH:MM&gt; &lt;product name 1&gt; &lt;product weight&gt; &lt;quantity&gt; &lt;product name 2&gt; &lt;product weight&gt; &lt;quantity&gt;
+supply &lt;id&gt; &lt;warehouse id&gt; &lt;timestamp YYYY-MM-DD HH:MM&gt; &lt;product id 1&gt; &lt;quantity&gt; &lt;product id 2&gt; &lt;quantity&gt;
 
 e.g. "supply 5 2016-10-25 12:32 tomato 5 100 potatoes 6 50 cheese 2 4"
 
