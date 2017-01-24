@@ -92,7 +92,7 @@ It will look like this:
 
 supply &lt;id&gt; &lt;warehouse id&gt; &lt;timestamp YYYY-MM-DD HH:MM&gt; &lt;product id 1&gt; &lt;quantity&gt; &lt;product id 2&gt; &lt;quantity&gt;
 
-e.g. "supply 5 2016-10-25 12:32 tomato 5 100 potatoes 6 50 cheese 2 4"
+e.g. "supply 5 2016-10-25 12:32 5 100 6 50 2 4"
 
 Bonus points if we execute a delivery previously impossible after a supply.
 
