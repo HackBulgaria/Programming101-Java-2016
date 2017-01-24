@@ -66,3 +66,47 @@ For our first version of the delivery system:
   * 500 WU capacity
 
 * The warehouse is at coordinates [42, 42]
+
+## Drone Delivery System v2
+
+Thanks to the great first version of the Delivery System, our delivery business has expnaded ! Now more companies are using our drones for their delivery requests.
+
+### More Drones
+
+In order to keep up with the new loads we have bought 30 more drones:
+  
+* Our new Chinese drones have:
+  * 1 200 BU
+  * 3 BU/min charging rate
+  * 200 WU capacity
+
+### Supply request
+
+We should also support supply requests
+
+It will look like this:
+
+supply &lt;id&gt; &lt;timestamp YYYY-MM-DD HH:MM&gt; &lt;product name 1&gt; &lt;product weight&gt; &lt;quantity&gt; &lt;product name 2&gt; &lt;product weight&gt; &lt;quantity&gt;
+
+e.g. "supply 5 2016-10-25 12:32 tomato 5 100 potatoes 6 50 cheese 2 4"
+
+Bonus points if we execute it later (after a supply)
+
+
+### ETA (estimated time of arrival)
+
+In the second version of our delivery system we should be able to calculate the ETA of a given delivery
+
+
+### Estimating ETA
+
+Each drone needs a minute for each DU (distance unit) travelled and will use 1 BU (battery unit) for each DU.
+
+The DUs are calculated as follows: The distance from cell [x1, y1] to cell [x2, y2] is calculated as ((x1 - x2)^2 + (y1 - y2)^2)^-2 (two-dimensional Euclidean distance).
+
+Moreover the drone needs a minute for each different product to load and a minute for each different product to unload at the target location. No BUs are used during loading/unloading.
+
+The batteries of the drones can be charged only at the warehouse.
+Take this in consideration when calculating the ETA.
+
+The ETA is the time that the last drone has unloaded the goods at the location.
