@@ -80,17 +80,21 @@ In order to keep up with the new loads we have bought 30 more drones:
   * 3 BU/min charging rate
   * 200 WU capacity
 
+### More Warehouses
+
+We have a second warehouse located at 420, 420
+
 ### Supply request
 
 We should also support supply requests
 
 It will look like this:
 
-supply &lt;id&gt; &lt;timestamp YYYY-MM-DD HH:MM&gt; &lt;product name 1&gt; &lt;product weight&gt; &lt;quantity&gt; &lt;product name 2&gt; &lt;product weight&gt; &lt;quantity&gt;
+supply &lt;id&gt; &lt;warehouse id&gt; &lt;timestamp YYYY-MM-DD HH:MM&gt; &lt;product name 1&gt; &lt;product weight&gt; &lt;quantity&gt; &lt;product name 2&gt; &lt;product weight&gt; &lt;quantity&gt;
 
 e.g. "supply 5 2016-10-25 12:32 tomato 5 100 potatoes 6 50 cheese 2 4"
 
-Bonus points if we execute it later (after a supply)
+Bonus points if we execute a delivery previously impossible after a supply.
 
 
 ### ETA (estimated time of arrival)
