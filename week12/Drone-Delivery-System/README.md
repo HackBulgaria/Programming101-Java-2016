@@ -106,7 +106,7 @@ In the second version of our delivery system we should be able to calculate the 
 
 Each drone needs a minute for each DU (distance unit) travelled and will use 1 BU (battery unit) for each DU.
 
-The DUs are calculated as follows: The distance from cell [x1, y1] to cell [x2, y2] is calculated as ((x1 - x2)^2 + (y1 - y2)^2)^-2 (two-dimensional Euclidean distance).
+The DUs are calculated as follows: The distance from cell [x1, y1] to cell [x2, y2] is calculated as ((x1 - x2)^2 + (y1 - y2)^2)^1/2 (two-dimensional Euclidean distance).
 
 Moreover the drone needs a minute for each different product to load and a minute for each different product to unload at the target location. No BUs are used during loading/unloading.
 
