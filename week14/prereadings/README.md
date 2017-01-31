@@ -42,3 +42,8 @@ It should have a name, `Skill` and a list of `Tasks`. A `Developer` completes hi
 - Write a class ProjectManager that instantiates a Developer
 
 A `Project Manager` comes up with the tasks for the `Developers` and assigns them. He has a patience threshold, provided as a command-line argument in the range [1, 2). If a `Developer` takes more than the expected time for a task, the `Project Manager` must fire him. (use interrupts for this). Think of a good way to implement an algorithm to check for task completion without wasting computing resources.
+
+## The Producer-Consumer Problem
+
+https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem
+
