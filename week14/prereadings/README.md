@@ -7,7 +7,7 @@ http://docs.oracle.com/javase/tutorial/essential/concurrency/index.html
 
 Try to answer these questions:
 * What is the difference between process and thread?
-* What is Runnable? Whats is Tread?
+* What is Runnable? Whats is Thread?
 * What are the most important methods in Thread ?
 * What is starvation, livelock and deadlock ?
 * What is thread interference and memory consistency errors ?
