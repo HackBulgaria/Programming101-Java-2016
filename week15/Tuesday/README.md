@@ -38,6 +38,8 @@ Points to think about:
 
 Your solution must provide a class which accepts a sudoku board as a two-dimensional 9x9 array and returns a boolean value that represents whether the array is a valid solution.
 
+Hint: you could write a Runnable that checks a row/column/3x3 box and execute one for each row/column/3x3 box
+
 ## The dining philosophers
 
 Five silent philosophers sit at a round table with bowls of spaghetti. Forks are placed between each pair of adjacent philosophers.
